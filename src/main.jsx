@@ -50,7 +50,7 @@ const App = () => {
     return (
         <div className='app'>
             <section>
-                <h2 className='title'>5 birthdays today</h2>
+                <h2 className='title'>{people.length} birthdays today</h2>
                 <div className='birthday-container'>
                     {
                         people.map((person) => {
